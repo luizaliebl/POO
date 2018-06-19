@@ -23,6 +23,7 @@ class Cliente
 ```
 
 &nbsp;
+
 &nbsp;
 
 **Instanciação**
@@ -52,6 +53,7 @@ public class Funcionario
 ```
 
 &nbsp;
+
 &nbsp;
 
 **Palavra reservada new**
@@ -63,6 +65,7 @@ Point p = new Point();
 ```
 
 &nbsp;
+
 &nbsp;
 
 **Palavra reservada instanciof**
@@ -84,6 +87,7 @@ class Test {
 }
 ```
 &nbsp;
+
 &nbsp;
 
 **Encapsulamento**
@@ -91,6 +95,7 @@ class Test {
 É o empacotamento (encapsulamento) de variáveis e métodos, ocultando a implementação do usuário. Representa reutilização, segurança e facilidade de manutenção.
 
 &nbsp;
+
 &nbsp;
 
 **Palavra reservada this**
@@ -112,6 +117,7 @@ class Cliente
 ```
 
 &nbsp;
+
 &nbsp;
 
 **Getters/Setters**
@@ -142,6 +148,7 @@ public class Ponto {
 ```
 
 &nbsp;
+
 &nbsp;
 
 **Palavra reservada public/private**
@@ -151,6 +158,7 @@ _Public:_ Faz com que uma classe, método ou variável possa ser acessado a part
 _Private:_ Faz com que um método ou variável possa ser acessado somente de dentro da própria classe;
 
 &nbsp;
+
 &nbsp;
 
 
@@ -167,6 +175,7 @@ public void Ponto(double x, double y) {
 ```
 
 &nbsp;
+
 &nbsp;
 
 **Sobrecarga de método**
@@ -185,6 +194,7 @@ public String Ponto(double x, int y) {
 ```
 
 &nbsp;
+
 &nbsp;
 
 **Escopo de classe**
@@ -208,6 +218,7 @@ public class MinhaClasse {// início do escopo
 ```
 
 &nbsp;
+
 &nbsp;
 
 **Escopo de objeto**
@@ -222,6 +233,7 @@ public static void main(String args[]){
 ```
 
 &nbsp;
+
 &nbsp;
 
 **Palavra reservada final**
@@ -264,6 +276,7 @@ public class MyClass {
 ```
 
 &nbsp;
+
 &nbsp;
 
 **Relacionamento de dependência**
@@ -271,6 +284,7 @@ public class MyClass {
 Classe A não consegue ser executado e compilada sem a Classe B. Uma classe utiliza o serviço de outra. Método da Classe. UML símbolo = seta tracejada
 
 &nbsp;
+
 &nbsp;
 
 **Relacinamento de Agregação**
@@ -278,6 +292,7 @@ Classe A não consegue ser executado e compilada sem a Classe B. Uma classe util
 Parte existe sem o todo. Aluno pode existir sem uma disciplina Relação Todo-Parte. Atributo da Classe. UML símbolo = linha com losango na ponta.
 
 &nbsp;
+
 &nbsp;
 
 
