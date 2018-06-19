@@ -1,8 +1,8 @@
 # QUESTIONÁRIO POO
 
-**Construtor
+**Construtor**
 
-R: O método construtor determina que ações devem ser executadas quando da criação de um objeto. Em Java, o construtor é definido como um método cujo nome deve ser o mesmo nome da classe e sem indicação do tipo de retorno. O construtor é unicamente invocado no momento da criação do objeto através do operador new.
+O método construtor determina que ações devem ser executadas quando da criação de um objeto. Em Java, o construtor é definido como um método cujo nome deve ser o mesmo nome da classe e sem indicação do tipo de retorno. O construtor é unicamente invocado no momento da criação do objeto através do operador new.
 
 ```java
 class Cliente
@@ -19,9 +19,9 @@ class Cliente
 ```
 
 
-* Instanciação
+**Instanciação**
 
-R: A instanciação é um processo por meio do qual se realiza a cópia de um objeto (classe) existente. Uma classe, a qual tem a função de determinar um tipo de dado, deve ser instanciada para que possamos utilizá-la.
+A instanciação é um processo por meio do qual se realiza a cópia de um objeto (classe) existente. Uma classe, a qual tem a função de determinar um tipo de dado, deve ser instanciada para que possamos utilizá-la.
 
 
 ```java
@@ -46,18 +46,18 @@ public class Funcionario
 ```
 
 
-* Palavra reservada new
+**Palavra reservada new**
 
-R: Usada para instânciar um novo objeto. 
+Usada para instânciar um novo objeto. 
 
 ```java
 Point p = new Point();
 ```
 
 
-* Palavra reservada instanciof
+**Palavra reservada instanciof**
 
-R: É um operador. Compara o tipo de uma variável a uma classe.
+É um operador. Compara o tipo de uma variável a uma classe.
 
 ```java
 class Point   { int x, y; }
@@ -75,14 +75,14 @@ class Test {
 ```
 
 
-* Encapsulamento
+**Encapsulamento**
 
-R: É o empacotamento (encapsulamento) de variáveis e métodos, ocultando a implementação do usuário. Representa reutilização, segurança e facilidade de manutenção.
+É o empacotamento (encapsulamento) de variáveis e métodos, ocultando a implementação do usuário. Representa reutilização, segurança e facilidade de manutenção.
 
 
-* Palavra reservada this
+**Palavra reservada this**
 
-R: Variável de referência que diz respeito a instancia atual de um objeto;
+Variável de referência que diz respeito a instancia atual de um objeto;
 
 ```java
 class Cliente
@@ -99,9 +99,11 @@ class Cliente
 ```
 
 
-* Getters/Setters
+**Getters/Setters**
 
-R:
+_Getters:_ Métodos que retornam o valor de uma variável da classe. 
+
+_Setters:_ Métodos que modificam o valor de uma variável da classe. 
 
 ```java
 public class Ponto {
@@ -124,10 +126,13 @@ public class Ponto {
 }
 ```
 
-* Palavra reservada public/private
 
-R: Public: Faz com que uma classe, método ou variável possa ser acessado a partir de qualquer outra classe.
-Private: Faz com que um método ou variável possa ser acessado somente de dentro da própria classe;
+**Palavra reservada public/private*
+
+_Public:_ Faz com que uma classe, método ou variável possa ser acessado a partir de qualquer outra classe.
+
+_Private:_ Faz com que um método ou variável possa ser acessado somente de dentro da própria classe;
+
 
 * Assinatura de método
 
