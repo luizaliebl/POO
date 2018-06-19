@@ -175,7 +175,7 @@ public String Ponto(double x, int y) {
 
 **Escopo de classe**
 
-Escopo refere-se à vida e acessibilidade. Quão grande é o alcance depende de onde é declarada.
+Escopo refere-se à vida e acessibilidade. Quão grande é o alcance depende de onde é declarada. Existem _quatro_:
 
 1. Variáveis estáticas vivem pelo mesmo tempo da classe.
 
@@ -195,6 +195,15 @@ public class MinhaClasse {// início do escopo
 
 
 **Escopo de objeto**
+
+O escopo de um objeto é sua visibilidade de outras partes do programa, o que implica não apenas quanto tempo existe a variável, como também quando foi criada e quando se tornou disponível. Um objeto definido dentro de uma função tem escopo local, e se é definido fora de qualquer função tem escopo global.
+
+```java
+public static void main(String args[]){
+	Pessoa pessoa1;
+	pessoa1 = new Pessoa(“Fulano”, 25, ’M’);
+}
+```
 
 
 
@@ -241,11 +250,19 @@ public class MyClass {
 
 **Relacionamento de dependência**
 
+Classe A não consegue ser executado e compilada sem a Classe B. Uma classe utiliza o serviço de outra. Método da Classe. UML símbolo = seta tracejada
+
 
 
 **Relacinamento de Agregação**
 
+Parte existe sem o todo. Aluno pode existir sem uma disciplina Relação Todo-Parte. Atributo da Classe. UML símbolo = linha com losango na ponta.
+
+
 
 
 **Relacionamento de Composição**
+
+Parte não existe sem o todo. Ser vivo não pode existir sem o coração. Relação Todo-Parte. Atributo da Classe. UML símbolo = linha com losango preto na ponta.
+
 
