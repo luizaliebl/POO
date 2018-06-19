@@ -1,6 +1,7 @@
 # QUESTIONÁRIO POO
 
 * Construtor
+
 R:O método construtor determina que ações devem ser executadas quando da criação de um objeto. Em Java, o construtor é definido como um método cujo nome deve ser o mesmo nome da classe e sem indicação do tipo de retorno. O construtor é unicamente invocado no momento da criação do objeto através do operador new. Exemplo:
 
 ```java
