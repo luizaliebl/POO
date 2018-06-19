@@ -127,50 +127,94 @@ public class Ponto {
 ```
 
 
-**Palavra reservada public/private*
+**Palavra reservada public/private**
 
 _Public:_ Faz com que uma classe, método ou variável possa ser acessado a partir de qualquer outra classe.
 
 _Private:_ Faz com que um método ou variável possa ser acessado somente de dentro da própria classe;
 
 
-* Assinatura de método
+**Assinatura de método**
 
-R:
-
-* Sobrecarga de método
-
-R:
-
-* Escopo de classe
-
-R:
-
-* Escopo de objeto
-
-R:
-
-* Palavra reservada final
-
-R: torna impossível estender uma classe, sobrepor um método ou reiniciar uma variável;
-
-* Relacionamento de dependência
-
-R:
-
-* Relacinamento de Agregação
-
-R:
-
-* Relacionamento de Composição
-
-R:
-
+É o nome do método, sua visibilidade, retorno e parâmetros. 
 
 ```java
-codigo java
+//Visibilidade + retorno + nome + parâmetros.
+public void Ponto(double x, double y) {
+    this.x = x;
+    this.y = y;
+}
 ```
 
-**negrito**
+**Sobrecarga de método**
 
-_italico teste_
+Permite a existência de vários métodos de mesmo nome, porém com assinaturas levemente diferentes ou seja variando no número , tipo de argumentos , no valor de retorno e até variáveis diferentes.
+
+```java
+public void Ponto(double x, double y) {
+}
+
+public boolean Ponto(double x) {
+}
+
+public String Ponto(double x, int y) {
+}
+```
+
+
+**Escopo de classe**
+
+Nome que se da aos limites de uma variavel. Em java uma variável só é valida dentro das chaves onde é declarada. Se declarada dentro do método, sé é válida dentro do mesmo, porém, se delcarada dentro da classe (como atributo) ela vale na classe inteira, incluindo no método.
+
+**Escopo de objeto**
+
+R:
+
+**Palavra reservada final**
+
+Torna impossível estender uma classe, sobrepor um método ou reiniciar uma variável;
+
+A palavra _final_ pode ser usada em vários lugares:
+
+Se for utilizada numa classe, isso indica que ela não poderá ser estendida:
+
+```java
+public final class MyClass {}
+
+// Isso não é permitido
+public class MyOtherClass extends MyClass {}
+```
+
+Se utilizamos em um método, indica que o método não poderá ser sobrescrito:
+
+```java
+public class MyClass {
+    public final void foo() {}
+}
+ 
+public class MyOtherClass extends MyClass {
+    public void foo() {} // Não é permitido sobrescrever o método
+}
+```
+
+Se a palavra for usada em uma variável, indica que tal variável será uma constante, pois não será permitido que modifique o valor dela uma vez que um valor seja atribuído:
+
+```java
+public class MyClass {
+ 
+    public void foo() {
+        final int teste = 0;
+        teste++; // Não é permitido
+    }
+}
+```
+
+
+**Relacionamento de dependência**
+
+
+**Relacinamento de Agregação**
+
+
+**Relacionamento de Composição**
+
