@@ -1,5 +1,6 @@
 # QUESTIONÁRIO POO
 
+
 **Construtor**
 
 O método construtor determina que ações devem ser executadas quando da criação de um objeto. Em Java, o construtor é definido como um método cujo nome deve ser o mesmo nome da classe e sem indicação do tipo de retorno. O construtor é unicamente invocado no momento da criação do objeto através do operador new.
@@ -17,6 +18,7 @@ class Cliente
   }
 }
 ```
+
 
 
 **Instanciação**
@@ -46,6 +48,7 @@ public class Funcionario
 ```
 
 
+
 **Palavra reservada new**
 
 Usada para instânciar um novo objeto. 
@@ -53,6 +56,7 @@ Usada para instânciar um novo objeto.
 ```java
 Point p = new Point();
 ```
+
 
 
 **Palavra reservada instanciof**
@@ -80,6 +84,7 @@ class Test {
 É o empacotamento (encapsulamento) de variáveis e métodos, ocultando a implementação do usuário. Representa reutilização, segurança e facilidade de manutenção.
 
 
+
 **Palavra reservada this**
 
 Variável de referência que diz respeito a instancia atual de um objeto;
@@ -97,6 +102,7 @@ class Cliente
   }
 }
 ```
+
 
 
 **Getters/Setters**
@@ -127,11 +133,13 @@ public class Ponto {
 ```
 
 
+
 **Palavra reservada public/private**
 
 _Public:_ Faz com que uma classe, método ou variável possa ser acessado a partir de qualquer outra classe.
 
 _Private:_ Faz com que um método ou variável possa ser acessado somente de dentro da própria classe;
+
 
 
 **Assinatura de método**
@@ -145,6 +153,8 @@ public void Ponto(double x, double y) {
     this.y = y;
 }
 ```
+
+
 
 **Sobrecarga de método**
 
@@ -162,13 +172,31 @@ public String Ponto(double x, int y) {
 ```
 
 
+
 **Escopo de classe**
 
-Nome que se da aos limites de uma variavel. Em java uma variável só é valida dentro das chaves onde é declarada. Se declarada dentro do método, sé é válida dentro do mesmo, porém, se delcarada dentro da classe (como atributo) ela vale na classe inteira, incluindo no método.
+Escopo refere-se à vida e acessibilidade. Quão grande é o alcance depende de onde é declarada.
+
+1. Variáveis estáticas vivem pelo mesmo tempo da classe.
+
+1. Variáveis de instância vivem pelo mesmo tempo do objeto.
+
+1. Variáveis locais vivem pelo mesmo tempo que os seus métodos na pilha, se o método chamar outro método, estas ficam temporariamente indisponíveis.
+
+1. As variáveis de bloco (for, if...) vivem até a conclusão do bloco.
+
+
+```java
+public class MinhaClasse {// início do escopo
+	private int inteiro;
+	boolean ativado;
+} // fim do escopo
+```
+
 
 **Escopo de objeto**
 
-R:
+
 
 **Palavra reservada final**
 
@@ -210,10 +238,13 @@ public class MyClass {
 ```
 
 
+
 **Relacionamento de dependência**
 
 
+
 **Relacinamento de Agregação**
+
 
 
 **Relacionamento de Composição**
