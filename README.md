@@ -142,6 +142,11 @@ _Private:_ Faz com que um método ou variável possa ser acessado somente de den
 
 
 
+
+
+
+
+
 **Assinatura de método**
 
 É o nome do método, sua visibilidade, retorno e parâmetros. 
