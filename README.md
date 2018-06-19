@@ -1,5 +1,5 @@
 # QUESTIONÁRIO POO
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 **Construtor**
 
@@ -19,7 +19,7 @@ class Cliente
 }
 ```
 
-
+&nbsp;
 
 **Instanciação**
 
@@ -47,7 +47,7 @@ public class Funcionario
    }
 ```
 
-
+&nbsp;
 
 **Palavra reservada new**
 
@@ -57,7 +57,7 @@ Usada para instânciar um novo objeto.
 Point p = new Point();
 ```
 
-
+&nbsp;
 
 **Palavra reservada instanciof**
 
@@ -77,13 +77,13 @@ class Test {
     }
 }
 ```
-
+&nbsp;
 
 **Encapsulamento**
 
 É o empacotamento (encapsulamento) de variáveis e métodos, ocultando a implementação do usuário. Representa reutilização, segurança e facilidade de manutenção.
 
-
+&nbsp;
 
 **Palavra reservada this**
 
@@ -103,7 +103,7 @@ class Cliente
 }
 ```
 
-
+&nbsp;
 
 **Getters/Setters**
 
@@ -132,7 +132,7 @@ public class Ponto {
 }
 ```
 
-
+&nbsp;
 
 **Palavra reservada public/private**
 
@@ -140,11 +140,8 @@ _Public:_ Faz com que uma classe, método ou variável possa ser acessado a part
 
 _Private:_ Faz com que um método ou variável possa ser acessado somente de dentro da própria classe;
 
-
-
-
-
-
+&nbsp;
+&nbsp;
 
 
 **Assinatura de método**
@@ -159,7 +156,7 @@ public void Ponto(double x, double y) {
 }
 ```
 
-
+&nbsp;
 
 **Sobrecarga de método**
 
@@ -176,7 +173,7 @@ public String Ponto(double x, int y) {
 }
 ```
 
-
+&nbsp;
 
 **Escopo de classe**
 
