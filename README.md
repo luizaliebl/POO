@@ -6,16 +6,16 @@ R:O método construtor determina que ações devem ser executadas quando da cria
 ```java
 class Cliente
 {
-int codigo;
-string nome;
-//Construtor
-public Cliente()
+  int codigo;
+  string nome;
+  
+  //Construtor
+  public Cliente(int cod, string nom){
+    codigo = cod;
+    nome = nom;
+  }
 }
-public Cliente(int cod, string nom)
-codigo = cod;
-nome = nom;
 ```
-
 
 * Instanciação
 R:
